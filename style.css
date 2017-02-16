@@ -1,0 +1,112 @@
+@font-face {
+ font-family: "pp-sans-big-light";
+ src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.woff");
+}
+
+@font-face {
+ font-family: "pp-sans-big-regular";
+ src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.woff");
+}
+
+@font-face {
+ font-family: "pp-sans-big-medium";
+ src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.woff");
+}
+
+@font-face {
+ font-family: "pp-sans-small-bold";
+ src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.woff");
+}
+
+@font-face {
+ font-family: "pp-sans-small-regular";
+ src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
+}
+.avantage{
+  border: 1px solid green;
+  background-image:radial-gradient(ellipse at center, #0099DC, #00499B);
+  color: white;
+  padding: 20px;
+}
+.avantage a{
+  color: white;
+  /*font-weight: bold;*/
+  font-size: 15px;
+  font-family: "pp-sans-small-bold";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
+
+}
+.detail{
+  margin: 30px;
+}
+.avantage h2{
+  font-size: 40px;
+  font-family: "pp-sans-big-light";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
+}
+.grrr{
+  margin: 20px;
+}
+.grrr span{
+  font-family: "pp-sans-big-regular";
+  font-size: 16px;
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
+}
+.element{
+  margin-bottom: 50px;
+  padding: 25px;
+}
+.element span{
+  font-size: 15px;
+  font-family: "pp-sans-small-regular";
+}
+.element h4{
+  font-size: 20px;
+  font-family: "pp-sans-big-light";
+}
+#condition{
+  margin-top: 0px;
+}
+#precond{
+  margin-bottom: 0px;
+}
+.image{
+  margin-bottom: -30px;
+}
+@media (max-width:768px) {
+.element{
+  padding: 0px;
+}
+.element div{
+  margin-left: 0px;
+  margin-bottom: 25px;
+}
+.element h4{
+  font-size: 20px;
+  margin-left: 0px;
+  /*float: left;*/
+}
+.element span{
+  font-size: 15px;
+  margin-left: 0px;
+  float: left;
+}
+}
+.bottom-footer{
+  font-size: 11px;
+  margin-bottom: 30px;
+  border-top: dotted;
+  padding-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+
+}
+.bottom-footer-right{
+
+
+
+}
+footer a {
+  color: grey;
+}
