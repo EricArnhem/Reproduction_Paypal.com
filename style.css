@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "pp-sans-big-light";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.woff");
+}
+
+@font-face {
+  font-family: "pp-sans-big-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.woff");
+}
+
+@font-face {
+  font-family: "pp-sans-big-medium";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.woff");
+}
+
+@font-face {
+  font-family: "pp-sans-small-bold";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.woff");
+}
+
+@font-face {
+  font-family: "pp-sans-small-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
+}
