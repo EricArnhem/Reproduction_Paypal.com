@@ -28,19 +28,21 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
-  height: 600px;
+  height: 490px;
   margin-top: -75px;
-  z-index: -1;
+  line-height: 50px;
+  z-index: 1;
 }
 
 #nav_main{
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.1);
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid;
   border-radius: 0;
-  z-index: 1;
+  border-color: rgba(110, 110, 113, 0.5);
+  z-index: 2;
 }
 
 #list_nav_main{
@@ -53,6 +55,74 @@
   color: #FFF;
 }
 
-#connexion {
+a{
+  outline-style: none;
+}
+
+/* Boutons */
+#button_connexion, #button_open_account{
   font-family: "pp-sans-big-medium";
+  border-radius: 25px;
+}
+
+#button_open_free_account, #button_professionel{
+  font-family: "pp-sans-small-bold";
+  font-size: 15px;
+  border-radius:  25px;
+  width: 25%;
+}
+
+#button_connexion {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+}
+
+#button_connexion a{
+  color: #FFF;
+}
+
+#button_open_account {
+  background-color: #FFFFFF;
+}
+
+#button_open_account a{
+  color: black;
+}
+
+#button_open_free_account {
+  background-color: #0070BA;
+}
+
+#button_open_free_account a{
+  color: #FFF;
+}
+
+#button_open_free_account a:hover{
+  background-color: #005EA6;
+  color: #E6E6E6;
+}
+
+#button_professionel {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+}
+
+#button_professionel a{
+  color: #FFF;
+}
+
+#background_image .btn{
+  line-height: 40px;
+}
+
+/* " Le paiement en ligne ... " */
+#paypal_description{
+  margin-top: 150px;
+  color: #fff;
+  font-family: "pp-sans-big-light";
+  font-size: 40px;
+}
+
+#blank{
+  height: 20px;
 }
