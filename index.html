@@ -9,6 +9,7 @@
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <script src="scripts/jquery.sticky.js"></script>
   <title>PayPal : Effectuez et Acceptez des paiements</title>
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -125,113 +126,165 @@
         </div>
       </div>
       <div class="col-lg-3">
-          <div id="font">
-            <h3>Partenaires et développeurs</h3>
-            <p>Proposez à vos clients des solutions plus innovantes avec PayPal. Nous vous y aidons.</p>
-            <a class="contentLink"><strong>En savoir plus</strong></a>
-          </div>
+        <div id="font">
+          <h3>Partenaires et développeurs</h3>
+          <p>Proposez à vos clients des solutions plus innovantes avec PayPal. Nous vous y aidons.</p>
+          <a class="contentLink"><strong>En savoir plus</strong></a>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container-fluid">
-      <div class="row text-center">
-          <img class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 image" src="images/fr-homepage-alldevices.png" alt="device">
-      </div>
-      <div class="row avantage">
-        <div class="row-fluid" >
-          <div class="row-fluid">
-            <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center partie3_text">De bonnes raisons d'utiliser Paypal</h2>
+  <div id="partie3_marge" class="container-fluid">
+    <div class="row text-center">
+      <img class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 image" src="images/fr-homepage-alldevices.png" alt="device">
+    </div>
+    <div class="row avantage">
+      <div class="row-fluid" >
+        <div class="row-fluid">
+          <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center partie3_text">De bonnes raisons d'utiliser Paypal</h2>
+        </div>
+        <div class="row-fluid text-center partie3_text" id="precond">
+          <span >Nous sommes à vos côtés. Votre commande n’a pas été livrée, est abîmée ou doit être retournée au vendeur ? Pas de soucis, vous pouvez vous faire rembourser</span>
+        </div>
+        <div class="row-fluid text-center partie3_text" id="condition">
+          <a href="https://www.paypal.com/fr/webapps/mpp/buyer-protection">(des conditions s'appliquent)</a>
+        </div>
+        <div class="row-fluid detail">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element ">
+            <h4>Simple et Pratique</h4>
+            <span class="text-left">Votre email et votre mot de passe suffisent pour payer. C'est tout simple.</span>
+
           </div>
-          <div class="row-fluid text-center partie3_text" id="precond">
-            <span >Nous sommes à vos côtés. Votre commande n’a pas été livrée, est abîmée ou doit être retournée au vendeur ? Pas de soucis, vous pouvez vous faire rembourser</span>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
+            <h4>Plus sécurisé</h4>
+            <span>Nous ne partageons jamais vos données bancaires avec les vendeurs.</span>
+
           </div>
-          <div class="row-fluid text-center partie3_text" id="condition">
-            <a href="https://www.paypal.com/fr/webapps/mpp/buyer-protection">(des conditions s'appliquent)</a>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
+            <h4>À vos côtés</h4>
+            <span>Vous pouvez payer sur des millions de sites en ligne, partout dans le monde.</span>
+
           </div>
-          <div class="row-fluid detail">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element ">
-              <h4>Simple et Pratique</h4>
-              <span class="text-left">Votre email et votre mot de passe suffisent pour payer. C'est tout simple.</span>
-
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
-              <h4>Plus sécurisé</h4>
-              <span>Nous ne partageons jamais vos données bancaires avec les vendeurs.</span>
-
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
-              <h4>À vos côtés</h4>
-              <span>Vous pouvez payer sur des millions de sites en ligne, partout dans le monde.</span>
-
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
-              <h4>Envoyez de l'argent</h4>
-              <span><a href="https://www.paypal.com/fr/webapps/mpp/send-money-online">Remboursez un proche </a> ou <a href="https://www.paypal.com/fr/webapps/mpp/requesting-payments">faites une demande</a> d'argent en quelques instants.</span>
-            </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
+            <h4>Envoyez de l'argent</h4>
+            <span><a href="https://www.paypal.com/fr/webapps/mpp/send-money-online">Remboursez un proche </a> ou <a href="https://www.paypal.com/fr/webapps/mpp/requesting-payments">faites une demande</a> d'argent en quelques instants.</span>
           </div>
-
         </div>
 
       </div>
-      <footer class="row-fluid">
-        <div class="row top-footer">
-          <div class="col-lg-6">
-            <div class="col-lg-offset-0 col-lg-1 col-md-1 col-sm-1 col-xs-1">
-              <button class="btn" type="button" name="button"><span class="glyphicon glyphicon-search"></span></button>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
-              <a href="https://www.paypal.com/fr/selfhelp/home">Aide et Contact</a>
-            </div>
-            <div class="col-lg-1 col-md-4 col-sm-4 col-xs-4">
-              <a href="https://www.paypal.com/fr/webapps/mpp/paypal-fees">Tarif</a>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 ">
-              <a href="https://www.paypal.com/fr/webapps/mpp/paypal-safety-and-security">Sécurité</a>
-            </div>
+
+    </div>
+
+    <section class="shop-row-fluid row pullout center-text white p1" id="espaceShopping">
+      <div class="containerCentered container">
+        <div class="center-block shop8 col-sm-8">
+          <h2 class="pulloutHeadline ">Payez en ligne en un clin d'œil.</h2>
+          <p class="pulloutPara row">Payez dans des millions de boutiques en ligne, simplement avec votre adresse email et votre mot de passe.</p>
+        </div>
+      </div>
+    </section>
+    <section class="shop-row-fluid panel four-panel">
+      <div class="containerCentered container4d2p1m container">
+        <div class="shop3 col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/bla-bla-car.jpg" alt="BlaBlaCar Logo" class="shop-panel-img"/>
+        </div>
+        <div class="shop3 col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/decathlon_image_new.jpg" alt="Decathlon Logo" class="shop-panel-img"/>
+        </div>
+        <div class="clearfix visible-sm ui-hidden-mobile ui-hidden-dedicated"></div>
+        <div class="shop3 col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/deezer.jpg" alt="Deezer Logo" class="shop-panel-img"/>
+        </div>
+        <div class="shop3 col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/La-Red.jpg" alt="La Reddoute Logo" class="shop-panel-img"/>
+        </div>
+      </div>
+    </section>
+    <section class="shop-row-fluid panel four-panel">
+      <div class="containerCentered container4d2p1m container">
+        <div class="shop3 col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/showroom.jpg" alt="Showroom Logo" class="shop-panel-img"/>
+        </div>
+        <div class="shop3 col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/pm.jpg" alt="Price Minister Logo" class="shop-panel-img"/>
+        </div>
+        <div class="clearfix visible-sm ui-hidden-mobile ui-hidden-dedicated"></div>
+        <div class="shop3 col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/spartoo.jpg" alt="Spartoo Logo" class="shop-panel-img"/>
+        </div>
+        <div class="shop3 col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/YVes.jpg" alt="Yves Rocher Logo" class="shop-panel-img"/>
+        </div>
+      </div>
+    </section>
+    <section class="closing-section shop-row-fluid panel center-text light" id="closing-shop-section">
+      <div class="containerCentered">
+        <div class="shop12">
+          <p class="closingHeadline headline large">Pour les acheteurs et les vendeurs.</p>
+          <a data-pa-click="closing|Ouvrir un compte gratuitement" class="btn closing-cta center-block" href="https://www.paypal.com/fr/webapps/mpp/account-selection">Ouvrir un compte gratuitement</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="row-fluid">
+      <div class="row top-footer">
+        <div class="col-lg-6">
+          <div class="col-lg-offset-0 col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <button class="btn" type="button" name="button"><span class="glyphicon glyphicon-search"></span></button>
           </div>
-          <div class="col-lg-6">
-            <button class="btn"><a  href="https://www.paypal.com/fr/webapps/mpp/country-worldwide"><img class="col-lg-offset-11 col-lg-1 col-md-offset-10 col-md-1 col-sm-offset-10 col-sm-1 col-xs-offset-10 col-xs-1" src="images/fr.svg" alt="France"></a></button>
+          <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+            <a href="https://www.paypal.com/fr/selfhelp/home">Aide et Contact</a>
+          </div>
+          <div class="col-lg-1 col-md-4 col-sm-4 col-xs-4">
+            <a href="https://www.paypal.com/fr/webapps/mpp/paypal-fees">Tarif</a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 ">
+            <a href="https://www.paypal.com/fr/webapps/mpp/paypal-safety-and-security">Sécurité</a>
           </div>
         </div>
-        <div class="row-fluid bottom-footer text-center">
+        <div class="col-lg-6">
+          <a href="https://www.paypal.com/fr/webapps/mpp/country-worldwide"><img id="flag_fr" src="images/fr.svg" alt="France"></a>
+        </div>
+      </div>
+      <div class="row-fluid bottom-footer text-center">
+        <div class="col-lg-5">
+          <div class="col-lg-2">
+            <a href="https://www.paypal.com/fr/webapps/mpp/about">À propos</a>
+          </div>
+          <div class="col-lg-2">
+            <a href="https://developer.paypal.com/">Développeurs</a>
+          </div>
+          <div class="col-lg-2">
+            <a href="https://www.paypal.com/fr/webapps/mpp/merchant">Professionnels</a>
+          </div>
+          <div class="col-lg-2">
+            <a href="https://www.paypal-marketing.com/paypal/html/hosted/emarketing/partner/directory/?use_lang=FR">Partenaires</a>
+          </div>
+          <div class="col-lg-3">
+            <a href="https://www.paypal.com/fr/webapps/mpp/jobs">Offres d'emploi</a>
+          </div>
+        </div>
+        <div class=" col-lg-offset-2 col-lg-5  bottom-footer-right">
+          <div >
+            <span class="col-lg-2 col-lg-offset-0">1999-2017</span>
+          </div>
           <div class="col-lg-5">
-            <div class="col-lg-2">
-              <a href="https://www.paypal.com/fr/webapps/mpp/about">À propos</a>
-            </div>
-            <div class="col-lg-2">
-              <a href="https://developer.paypal.com/">Développeurs</a>
-            </div>
-            <div class="col-lg-2">
-              <a href="https://www.paypal.com/fr/webapps/mpp/merchant">Professionnels</a>
-            </div>
-            <div class="col-lg-2">
-              <a href="https://www.paypal-marketing.com/paypal/html/hosted/emarketing/partner/directory/?use_lang=FR">Partenaires</a>
-            </div>
-            <div class="col-lg-3">
-              <a href="https://www.paypal.com/fr/webapps/mpp/jobs">Offres d'emploi</a>
-            </div>
+            <a href="https://www.paypal.com/fr/webapps/mpp/ua/privacy-full">Respect de la vie privée</a>
           </div>
-          <div class=" col-lg-offset-2 col-lg-5  bottom-footer-right">
-            <div >
-              <span class="col-lg-2 col-lg-offset-0">1999-2017</span>
-            </div>
-            <div class="col-lg-5">
-              <a href="https://www.paypal.com/fr/webapps/mpp/ua/privacy-full">Respect de la vie privée</a>
-            </div>
-            <div class="col-lg-4">
-              <a href="https://www.paypal.com/fr/webapps/mpp/ua/legalhub-full">Contract d'utilisation</a>
-            </div>
-            <div class="col-lg-1">
-              <a href="https://www.paypal.com/fr/home">Évaluation</a>
-            </div>
-
+          <div class="col-lg-4">
+            <a href="https://www.paypal.com/fr/webapps/mpp/ua/legalhub-full">Contract d'utilisation</a>
+          </div>
+          <div class="col-lg-1">
+            <a href="https://www.paypal.com/fr/home">Évaluation</a>
           </div>
 
         </div>
-      </footer>
 
-</div>
+      </div>
+    </footer>
+
+  </div>
 
 
   <script>
@@ -246,6 +299,12 @@
       });
     });
   });
-</script>
- </body>
+  </script>
+
+  <script>
+    $(document).ready(function(){
+      $("#partie2_navbar").sticky({topSpacing:0});
+    });
+  </script>
+</body>
 </html>
