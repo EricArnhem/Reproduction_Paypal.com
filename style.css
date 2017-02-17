@@ -23,13 +23,18 @@
   src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
 }
 
+#header_buttons{
+  height: 50px;
+  padding-top: 8px;
+}
+
 #background_image{
   background-image: url("images/background.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  height: 490px;
+  height: 750px;
   margin-top: -90px;
   line-height: 50px;
   z-index: -1;
@@ -88,7 +93,7 @@ a{
 
 #button_connexion {
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 #button_connexion a{
@@ -97,7 +102,7 @@ a{
 
 #button_connexion2 {
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 #button_connexion2 a{
