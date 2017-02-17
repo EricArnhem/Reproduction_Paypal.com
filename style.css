@@ -37,7 +37,12 @@
   height: 750px;
   margin-top: -90px;
   line-height: 50px;
+  padding-top: 125px;
   z-index: -1;
+}
+
+#background_image .btn{
+  line-height: 40px;
 }
 
 #nav_main{
@@ -65,6 +70,7 @@
 
 #list_nav_main li a{
   color: #FFF;
+  padding-right: 50px;
 }
 
 #list_nav_main a:hover{
@@ -139,10 +145,6 @@ a{
 
 #button_professionel a{
   color: #FFF;
-}
-
-#background_image .btn{
-  line-height: 40px;
 }
 
 /* " Le paiement en ligne ... " */
