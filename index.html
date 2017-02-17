@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" type="image/x-icon" href="images/paypal_icon.png" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -10,7 +11,7 @@
   <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
   <title>PayPal : Effectuez et Acceptez des paiements</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 
   <div class="container-fluid">
     <div class="row">
@@ -59,5 +60,94 @@
 
 
 
-</body>
+
+  <!--navbar-->
+  <div id="partie2_navbar" class="navbar navbar-default navbar-fixed" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#partie2_list">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="partie2_list" class="navbar-collapse collapse">
+        <div id="menu">
+          <ul class="nav navbar-nav navbar">
+            <li><a href="#decrouvrir">Découvrir</a></li>
+            <li><a href="#avantages">Avantages</a></li>
+            <li><a href="#espace_shopping">Espace Shopping</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--titre-->
+  <div class="container-fluid">
+    <div class="row" id="titre">
+      <div class="col-lg-offset-3 col-lg-9">
+        <h2>Des solutions pour chacun.</h2>
+        <br>
+      </div>
+    </div>
+    <!--sous titre-->
+    <div class="row">
+      <div class="home">
+        <div class="col-lg-offset-3 col-lg-10">
+          <p>Faites vos achats ou vendez en toute sérénité que ce soit en ligne, sur mobile ou en magasin.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Paragraphe-->
+  <div class="row" id="marge">
+    <div  class="texte">
+      <div class="col-lg-3">
+        <div class="left">
+          <div id="font">
+            <h3>Particuliers</h3>
+            <p>Faites vos achats en ligne. Envoyez sans frais de l’argent en euros à vos proches en France.</p>
+            <a class="contentLink"><strong>En savoir plus</strong></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div id="font">
+          <h3>Professionnels</h3>
+          <p>Acceptez tous types de paiements : par carte, compte bancaire ou solde PayPal.</p>
+          <a class="contentLink"><strong>En savoir plus</strong></a>
+        </div>
+      </div>
+      <div class= "col-lg-3">
+        <div id="font">
+          <h3>Associations</h3>
+          <p>Votre cause est la nôtre. Avec PayPal, vous pouvez bénéficier de tarifs spécifiques.</p>
+          <a class="contentLink"><strong>En savoir plus</strong></a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+          <div id="font">
+            <h3>Partenaires et développeurs</h3>
+            <p>Proposez à vos clients des solutions plus innovantes avec PayPal. Nous vous y aidons.</p>
+            <a class="contentLink"><strong>En savoir plus</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <script>
+  $(function () {
+    $('li>a').on('click', function(e) {
+      e.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 1000, function(){
+        window.location.hash = hash;
+      });
+    });
+  });
+</script>
+ </body>
 </html>
