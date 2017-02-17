@@ -1,0 +1,118 @@
+@font-face{
+  font-family: "pp-sans-big-light";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.woff");
+}
+@font-face{
+  font-family: "pp-sans-small-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
+}
+.shop8 h2{
+  font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1.25;
+  font-size: 40px;
+  font-size: 2.8em;
+  line-height: 1.25em;
+  letter-spacing: 0.02em;
+  font-weight: 300;
+  color: #2c2e2f;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.shop3 img{
+  border: 0;
+  max-width: 100%;
+}
+.containerCentered{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.center-text{
+  text-align: center;
+}
+.center-block{
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+.pullout{
+  padding: 90px 0;
+  margin: auto;
+}
+.shop-row-fluid{
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  transform: translate(0, 0);
+  width: 100%;
+  box-sizing: border-box;
+}
+.shop-row-fluid .shop8{
+  width: 66%;
+}
+.pulloutPara{
+  font-size: 16px;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.light{
+  background-color: #f7f9fa;
+  color: #666;
+}
+#closing-shop-section{
+  padding: 90px 0;
+  margin-bottom: 150px;
+}
+.shop-panel-img{
+  margin: auto;
+  display: block;
+}
+.shop-row-fluid .shop12{
+  width: 100%;
+  float: left;
+  min-height: 1px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+.headline{
+  font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1.25;
+  color: #2c2e2f;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.large{
+  font-size: 1.7em;
+  letter-spacing: 0.01em;
+}
+.btn{
+  font-family: "pp-sans-small-regular";
+  padding: 9px 0 10px 0;
+  border-radius: 25px;
+  font-size: 0.9em;
+  line-height: 1.5;
+  background: #0070ba;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.closing-cta {
+  min-width: 300px;
+  width: 30%;
+  margin-top: 28px;
+}
