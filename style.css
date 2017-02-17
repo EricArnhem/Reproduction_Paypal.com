@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "pp-sans-big-light";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.woff");
+}
+
+@font-face {
+  font-family: "pp-sans-big-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.woff");
+}
+
+@font-face {
+  font-family: "pp-sans-big-medium";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.woff");
+}
+
+@font-face {
+  font-family: "pp-sans-small-bold";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.woff");
+}
+
+@font-face {
+  font-family: "pp-sans-small-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
+}
+#titre{
+  margin-top: 150px;
+  margin-right: 60px;
+}
+.texte{
+  margin-top: 60px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+#cf{
+  font-family: "pp-sans-big-regular";
+  color: #0070ba;
+  width: 50px;
+}
+.navbar{
+  padding: 0.5%;
+}
+.home{
+  margin-right: 8%;
+}
+h2{
+  font-family:"pp-sans-big-light";
+  font-size: 40px;
+  padding-left: 9%;
+}
+h3{
+  font-family: "pp-sans-big-light";
+  font-size: 20px;
+}
+p{
+  font-family: "pp-sans-big-regular";
+  font-size: 15px;
+}
+#font p{
+  font-family: "pp-sans-small-regular";
+  font-size: 16px;
+
+}
+#menu a:hover{
+  text-decoration: underline;
+  color: #0770BB;
+}
+#menu a{
+    color: #444;
+  }
+#test{
+  font-size: 16px;
+
+}
