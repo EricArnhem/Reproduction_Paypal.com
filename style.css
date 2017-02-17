@@ -217,3 +217,80 @@ p{
 #marge{
   margin: 0;
 }
+
+.avantage{
+  background-image:radial-gradient(ellipse at center, #0099DC, #00499B);
+  color: white;
+  padding: 20px ;
+}
+.avantage a{
+  color: white;
+  font-size: 15px;
+  font-family: "pp-sans-small-bold";
+
+}
+.detail{
+  margin: 30px;
+}
+.avantage h2{
+  font-size: 40px;
+  font-family: "pp-sans-big-light";
+}
+.partie3_text{
+  margin: 20px;
+}
+.partie3_text span{
+  font-family: "pp-sans-big-regular";
+  font-size: 16px;
+}
+.element{
+  margin-bottom: 50px;
+  padding: 25px;
+}
+.element span{
+  font-size: 15px;
+  font-family: "pp-sans-small-regular";
+}
+.element h4{
+  font-size: 20px;
+  font-family: "pp-sans-big-light";
+}
+#condition{
+  margin-top: 0px;
+}
+#precond{
+  margin-bottom: 0px;
+}
+.image{
+  margin-bottom: -30px;
+}
+@media (max-width:768px) {
+.element{
+  padding: 0px;
+}
+.element div{
+  margin-left: 0px;
+  margin-bottom: 25px;
+}
+.element h4{
+  font-size: 20px;
+  margin-left: 0px;
+}
+.element span{
+  font-size: 15px;
+  margin-left: 0px;
+  float: left;
+}
+}
+.bottom-footer{
+  font-size: 11px;
+  margin-bottom: 30px;
+  border-top: dashed 1px grey;
+  padding-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer a {
+  color: grey;
+}
