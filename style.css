@@ -28,6 +28,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: cover;
   height: 490px;
   margin-top: -90px;
   line-height: 50px;
@@ -52,6 +53,12 @@
   color: white;
 }
 
+@media(max-width: 768px){
+  #list_nav_main{
+    background-color: rgb(110,115,134);
+  }
+}
+
 #list_nav_main li a{
   color: #FFF;
 }
@@ -69,7 +76,7 @@ a{
 }
 
 /* Boutons */
-#button_connexion, #button_open_account{
+#button_connexion, #button_open_account, #button_connexion2{
   font-family: "pp-sans-big-medium";
   border-radius: 25px;
 }
@@ -78,7 +85,6 @@ a{
   font-family: "pp-sans-small-bold";
   font-size: 15px;
   border-radius:  25px;
-  width: 25%;
 }
 
 #button_connexion {
@@ -87,6 +93,15 @@ a{
 }
 
 #button_connexion a{
+  color: #FFF;
+}
+
+#button_connexion2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+}
+
+#button_connexion2 a{
   color: #FFF;
 }
 
@@ -132,6 +147,12 @@ a{
   color: #fff;
   font-family: "pp-sans-big-light";
   font-size: 40px;
+}
+
+@media(max-width: 400px){
+  #paypal_description{
+    font-size: 30px;
+  }
 }
 
 #blank{
