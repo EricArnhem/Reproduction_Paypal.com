@@ -1,3 +1,4 @@
+/* Polices */
 @font-face {
   font-family: "pp-sans-big-light";
   src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.woff");
@@ -23,28 +24,9 @@
   src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff");
 }
 
-#header_buttons{
-  height: 50px;
-  padding-top: 8px;
-}
-
-#background_image{
-  background-image: url("images/background.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-  height: 750px;
-  margin-top: -90px;
-  line-height: 50px;
-  padding-top: 125px;
-}
-
-#background_image .btn{
-  line-height: 40px;
-}
-
-#nav_main{
+/* ----- Partie 1 ----- */
+  /* Navbar */
+#partie1_navbar{
   background-color: rgba(0, 0, 0, 0.1);
   border-top: 0;
   border-left: 0;
@@ -56,71 +38,122 @@
   z-index: 1;
 }
 
-#list_nav_main{
+  /* Liste de la navbar */
+#partie1_list_navbar{
   font-family: "pp-sans-big-medium";
   font-weight: 300;
   color: white;
 }
 
 @media(max-width: 767px){
-  #list_nav_main{
+  #partie1_list_navbar{
     background-color: rgb(110,115,134);
   }
 }
 
-#list_nav_main li a{
+#partie1_list_navbar li a{
   color: #FFF;
   padding-right: 50px;
 }
 
-#list_nav_main a:hover{
+#partie1_list_navbar a:hover{
   border-bottom: 3px solid white;
 }
 
-a{
-  outline-style: none;
+  /* Boutons de la navbar */
+#partie1_navbar_buttons{
+  height: 50px;
+  padding-top: 8px;
 }
 
-/* Boutons */
-#button_connexion, #button_open_account, #button_connexion2{
+#partie1_button_connexion {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+}
+
+#partie1_button_connexion a{
+  color: #FFF;
+}
+
+#partie1_button_open_account {
+  background-color: #FFFFFF;
+}
+
+#partie1_button_open_account a{
+  color: black;
+}
+
+/* Div de la photo */
+#partie1_div_photo{
+  background-image: url("images/background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 750px;
+  margin-top: -90px;
+  line-height: 50px;
+  padding-top: 125px;
+}
+
+#partie1_div_photo .btn{
+  line-height: 40px;
+}
+
+#partie1_description{
+  margin-top: 150px;
+  color: #fff;
+  font-family: "pp-sans-big-light";
+  font-size: 40px;
+}
+
+@media(max-width: 400px){
+  #partie1_description{
+    font-size: 30px;
+  }
+}
+
+.partie1_blank{
+  height: 20px;
+}
+  /* Boutons de la div photo */
+#partie1_button_open_free_account a{
+  color: #FFF;
+}
+
+#partie1_button_professionnel {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+}
+
+#partie1_button_professionnel a{
+  color: #FFF;
+}
+
+#partie1_button_connexion2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+}
+
+#partie1_button_connexion2 a{
+  color: #FFF;
+}
+
+/* Boutons de la Partie 1 */
+#partie1_button_connexion, #partie1_button_open_account, #partie1_button_connexion2{
   font-family: "pp-sans-big-medium";
   border-radius: 25px;
 }
 
-#button_open_free_account, #button_professionel{
+#partie1_button_open_free_account, #partie1_button_professionnel{
   font-family: "pp-sans-small-bold";
   font-size: 15px;
   border-radius:  25px;
 }
 
-#button_connexion {
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid white;
-}
-
-#button_connexion a{
-  color: #FFF;
-}
-
-#button_connexion2 {
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid white;
-}
-
-#button_connexion2 a{
-  color: #FFF;
-}
-
-#button_open_account {
-  background-color: #FFFFFF;
-}
-
-#button_open_account a{
-  color: black;
-}
-
-#button_open_free_account a{
-  color: #FFF;
+/* Sélecteurs génériques utilisés pour la Partie 1 */
+a{
+  outline-style: none;
 }
 
 .btn-primary{
@@ -134,184 +167,166 @@ a{
   color: #E6E6E6;
 }
 
-#button_professionel {
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid white;
-}
 
-#button_professionel a{
-  color: #FFF;
-}
-
-/* " Le paiement en ligne ... " */
-#paypal_description{
-  margin-top: 150px;
-  color: #fff;
-  font-family: "pp-sans-big-light";
-  font-size: 40px;
-}
-
-@media(max-width: 400px){
-  #paypal_description{
-    font-size: 30px;
-  }
-}
-
-#blank{
-  height: 20px;
-}
-
-#titre{
-  margin-top: 75px;
-  margin-right: 60px;
-}
-
-.texte{
-  margin-top: 50px;
-  padding-left: 4%;
-  padding-right: 4%;
-}
-
-#cf{
-  font-family: "pp-sans-big-regular";
-  color: #0070ba;
-  width: 50px;
-}
-
+/* ----- Partie 2 ----- */
+  /* Navbar */
 #partie2_navbar .navbar{
   padding: 0.5%;
 }
 
-.home{
-  margin-right: 8%;
+#partie2_menu a:hover{
+  text-decoration: underline;
+  color: #0770BB;
 }
 
-h2{
+#partie2_menu a{
+  color: #444;
+}
+
+  /* Titre et Sous-titre */
+#partie2_title{
+  margin-top: 75px;
+  margin-right: 60px;
+}
+
+#partie2_title h2{
   font-family:"pp-sans-big-light";
   font-size: 40px;
   padding-left: 9%;
 }
 
-h3{
+#partie2_subtitle{
+  margin-right: 8%;
+}
+
+#partie2_margin{
+  margin: 0;
+}
+
+  /* Paragraphes */
+#partie2_paragraphs{
+  margin-top: 50px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.partie2_paragraph_text p{
+  font-family: "pp-sans-small-regular";
+  font-size: 16px;
+}
+
+.partie2_paragraph_text h3{
   font-family: "pp-sans-big-light";
   font-size: 20px;
 }
 
+  /* Sélecteurs génériques */
 p{
   font-family: "pp-sans-big-regular";
   font-size: 15px;
 }
 
-#font p{
-  font-family: "pp-sans-small-regular";
-  font-size: 16px;
+/* ----- Marge ----- */
+#div_margin{
+  margin-top: 100px;
 }
 
-#menu a:hover{
-  text-decoration: underline;
-  color: #0770BB;
+/* ----- Partie 3 ----- */
+  /* Photo des appareils */
+#partie3_picture{
+  margin-bottom: -30px;
 }
 
-#menu a{
-  color: #444;
-}
-
-#marge{
-  margin: 0;
-}
-
-/* Partie 3 */
-
-.avantage{
+  /* Contenu de la Partie 3 */
+#partie3_content{
   background-image:radial-gradient(ellipse at center, #0099DC, #00499B);
   color: white;
   padding: 20px ;
 }
-.avantage a{
+
+#partie3_content a{
   color: white;
   font-size: 15px;
   font-family: "pp-sans-small-bold";
+}
 
-}
-.detail{
-  margin: 30px;
-}
-.avantage h2{
+#partie3_content h2{
   font-size: 40px;
   font-family: "pp-sans-big-light";
 }
+
+  /* Titre et Sous-titre */
 .partie3_text{
   margin: 20px;
 }
+
 .partie3_text span{
   font-family: "pp-sans-big-regular";
   font-size: 16px;
 }
 
-#partie3_marge{
-  margin-top: 100px;
+#partie3_problem_sentence{
+  margin-bottom: 0px;
 }
 
-.element{
+#partie3_condition{
+  margin-top: 0px;
+}
+
+  /* Paragraphes */
+#partie3_paragraphs{
+  margin: 30px;
+}
+
+.partie3_paragraphs_element{
   margin-bottom: 50px;
   padding: 25px;
 }
-.element span{
+.partie3_paragraphs_element span{
   font-size: 15px;
   font-family: "pp-sans-small-regular";
 }
-.element h4{
+.partie3_paragraphs_element h4{
   font-size: 20px;
   font-family: "pp-sans-big-light";
 }
-#condition{
-  margin-top: 0px;
-}
-#precond{
-  margin-bottom: 0px;
-}
-.image{
-  margin-bottom: -30px;
-}
+
 @media (max-width:768px) {
-  .element{
+  .partie3_paragraphs_element{
     padding: 0px;
   }
-  .element div{
+  .partie3_paragraphs_element div{
     margin-left: 0px;
     margin-bottom: 25px;
   }
-  .element h4{
+  .partie3_paragraphs_element h4{
     font-size: 20px;
     margin-left: 0px;
   }
-  .element span{
+  .partie3_paragraphs_element span{
     font-size: 15px;
     margin-left: 0px;
     float: left;
   }
 }
-.bottom-footer{
-  font-size: 11px;
-  margin-bottom: 30px;
-  border-top: dashed 1px grey;
-  padding-top: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
+
+
+/* ----- Partie 4 ----- */
+  /* Titre et Sous-titre(paragraphe) */
+#partie4_padding{
+  padding: 90px 0;
+  margin: auto;
 }
 
-footer a {
-  color: grey;
+#partie4_title_paragraph{
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
 }
 
-#flag_fr{
-  float: right;
-  height: 20px;
-  width: 26px;
-}
-
-.shop8 h2{
-  font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
+#partie4_title_paragraph h2{
+  font-family: "pp-sans-big-light", 'Helvetica Neue', Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
   line-height: 1.25;
@@ -325,40 +340,8 @@ footer a {
   padding-top: 0;
   padding-bottom: 0;
 }
-.shop3 img{
-  border: 0;
-  max-width: 100%;
-}
-.containerCentered{
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-.center-text{
-  text-align: center;
-}
-.center-block{
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-}
-.pullout{
-  padding: 90px 0;
-  margin: auto;
-}
-.shop-row-fluid{
-  background: #fff;
-  position: relative;
-  z-index: 2;
-  transform: translate(0, 0);
-  width: 100%;
-  box-sizing: border-box;
-}
-.shop-row-fluid .shop8{
-  width: 66%;
-}
-.pulloutPara{
+
+#partie4_paragraph{
   font-size: 16px;
   font-size: 1em;
   line-height: 1.5em;
@@ -366,40 +349,35 @@ footer a {
   padding-top: 25px;
   padding-bottom: 35px;
 }
-.light{
-  background-color: #f7f9fa;
-  color: #666;
+
+  /* Sections Logo */
+#partie4_section_logo img{
+  border: 0;
+  max-width: 100%;
 }
-#closing-shop-section{
-  padding: 90px 0;
-  margin-bottom: 150px;
-}
-.shop-panel-img{
+
+.partie4_img{
   margin: auto;
   display: block;
 }
-.shop-row-fluid .shop12{
+
+  /* Partie "Pour les acheteurs et les vendeurs" */
+#partie4_section_paragraph_button{
+  padding: 90px 0;
+  margin-bottom: 150px;
+  background-color: #f7f9fa;
+  color: #666;
+}
+
+#partie4_paragraph_button{
   width: 100%;
   float: left;
   min-height: 1px;
   box-sizing: border-box;
   font-size: 1.2em;
 }
-.headline{
-  font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1.25;
-  color: #2c2e2f;
-  margin: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.large{
-  font-size: 1.7em;
-  letter-spacing: 0.01em;
-}
-.shop12 .btn{
+
+#partie4_paragraph_button .btn{
   font-family: "pp-sans-small-regular";
   padding: 9px 0 10px 0;
   border-radius: 25px;
@@ -415,8 +393,43 @@ footer a {
   cursor: pointer;
   box-sizing: border-box;
 }
-.closing-cta {
+
+#partie4_paragraph2{
+  font-family: "pp-sans-big-light", 'Helvetica Neue', Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1.25;
+  color: #2c2e2f;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1.7em;
+  letter-spacing: 0.01em;
+}
+
+#partie4_button{
   min-width: 300px;
   width: 30%;
   margin-top: 28px;
+}
+
+
+/* FOOTER */
+.footer_bottom{
+  font-size: 11px;
+  margin-bottom: 30px;
+  border-top: dashed 1px grey;
+  padding-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#footer_flag_fr{
+  float: right;
+  height: 20px;
+  width: 26px;
+}
+
+footer a {
+  color: grey;
 }

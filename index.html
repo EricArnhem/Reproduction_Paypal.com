@@ -21,15 +21,15 @@
       <!-- Header -->
       <header>
         <!-- Navbar du Header -->
-        <nav id="nav_main" class="navbar navbar-default" role="navigation">
+        <nav id="partie1_navbar" class="navbar navbar-default" role="navigation">
             <!-- Logos Paypal -->
-          <div id="partie1_div_paypal" class="col-xs-2 col-sm-1 col-md-2 col-lg-2">
-            <a href="#" class="navbar-brand hidden-sm"><img id="partie1_paypal_logo" src="images/paypal_logo.png" alt="Paypal Logo"></a>
-            <a href="#" class="navbar-brand hidden-xs hidden-md hidden-lg"><img id="partie1_paypal_logo_small" src="images/paypal_logo_small.png" alt="Paypal Logo"></a>
+          <div class="col-xs-2 col-sm-1 col-md-2 col-lg-2">
+            <a href="#" class="navbar-brand hidden-sm"><img src="images/paypal_logo.png" alt="Paypal Logo"></a>
+            <a href="#" class="navbar-brand hidden-xs hidden-md hidden-lg"><img src="images/paypal_logo_small.png" alt="Paypal Logo Small"></a>
           </div>
             <!-- Menu Burger -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#list_header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#partie1_list_burger">
               <span class="sr-only">Toggle Navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -37,17 +37,17 @@
             </button>
           </div>
             <!-- Liste de la Navbar -->
-          <div id="list_header" class="col-sm-3 col-md-5 col-lg-6 navbar-collapse collapse">
-            <ul id="list_nav_main" class="nav navbar-nav">
+          <div id="partie1_list_burger" class="col-sm-3 col-md-5 col-lg-6 navbar-collapse collapse">
+            <ul id="partie1_list_navbar" class="nav navbar-nav">
               <li><a href="#">PARTICULIERS</a></li>
               <li><a href="#">PROFESSIONNELS</a></li>
               <li><a href="#">PARTENAIRES ET DÉVELOPPEURS</a></li>
             </ul>
           </div>
             <!-- Boutons "Connexion" et "Ouvrir un compte" -->
-          <div id="header_buttons" class="col-lg-3 visible-lg">
-            <button id="button_connexion" type="button" name="connexion" class="btn"><a href="#">Connexion</a></button>
-            <button id="button_open_account" type="button" name="account" class="btn"><a href="#">Ouvrir un compte</a></button>
+          <div id="partie1_navbar_buttons" class="col-lg-3 visible-lg">
+            <button id="partie1_button_connexion" type="button" name="connexion" class="btn"><a href="#">Connexion</a></button>
+            <button id="partie1_button_open_account" type="button" name="account" class="btn"><a href="#">Ouvrir un compte</a></button>
           </div>
         </nav>
       </header>
@@ -55,14 +55,14 @@
       <!-- Div avec la photo en background -->
       <div class="full container-fluid">
         <div class="row">
-          <div id="background_image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1 id="paypal_description" class="text-center">Le paiement en ligne, simple et sécurisé.</h1>
-            <div id="blank"></div>
-            <div><button id="button_open_free_account" type="button" name="open_account" class="btn btn-primary center-block"><a href="#">Ouvrir un compte gratuitement</a></button></div>
-            <div id="blank"></div>
-            <div><button id="button_professionel" type="button" name="professionel" class="btn btn-default center-block"><a href="#">Vous êtes un professionnel ?</a></button></div>
-            <div id="blank"></div>
-            <button id="button_connexion2" type="button" name="connexion" class="btn center-block hidden-lg"><a href="#">Connexion</a></button>
+          <div id="partie1_div_photo" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 id="partie1_description" class="text-center">Le paiement en ligne, simple et sécurisé.</h1>
+            <div class="partie1_blank"></div>
+            <div><button id="partie1_button_open_free_account" type="button" name="open_account" class="btn btn-primary center-block"><a href="#">Ouvrir un compte gratuitement</a></button></div>
+            <div class="partie1_blank"></div>
+            <div><button id="partie1_button_professionnel" type="button" name="professionnel" class="btn btn-default center-block"><a href="#">Vous êtes un professionnel ?</a></button></div>
+            <div class="partie1_blank"></div>
+            <button id="partie1_button_connexion2" type="button" name="connexion2" class="btn center-block hidden-lg"><a href="#">Connexion</a></button>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
     <div class="container">
       <!-- Menu Burger -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#partie2_list">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#partie2_list_navbar">
           <span class="sr-only">Toggle Navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -85,8 +85,8 @@
       </div>
 
       <!-- Liste de la Navbar avec les ancres -->
-      <div id="partie2_list" class="navbar-collapse collapse">
-        <div id="menu">
+      <div id="partie2_list_navbar" class="navbar-collapse collapse">
+        <div id="partie2_menu">
           <ul class="nav navbar-nav navbar">
             <li><a href="#decouvrir">Découvrir</a></li>
             <li><a href="#avantages">Avantages</a></li>
@@ -102,7 +102,7 @@
   <div class="container-fluid">
     <span id="decouvrir"></span> <!-- Span avec l'ID "decouvrir" lié à l'ancre -->
     <!-- Titre -->
-    <div class="row" id="titre">
+    <div class="row" id="partie2_title">
       <div class="col-lg-offset-3 col-lg-9">
         <h2>Des solutions pour chacun.</h2>
         <br>
@@ -110,7 +110,7 @@
     </div>
     <!-- Sous-titre-->
     <div class="row">
-      <div class="home">
+      <div id="partie2_subtitle">
         <div class="col-lg-offset-3 col-lg-10">
           <p>Faites vos achats ou vendez en toute sérénité que ce soit en ligne, sur mobile ou en magasin.</p>
         </div>
@@ -119,13 +119,13 @@
   </div>
 
   <!-- Paragraphes -->
-  <div class="row" id="marge">
-    <div  class="texte">
+  <div class="row" id="partie2_margin">
+    <div id="partie2_paragraphs">
 
       <!-- Paragraphe "Particuliers" -->
       <div class="col-lg-3">
         <div class="left">
-          <div id="font">
+          <div class="partie2_paragraph_text">
             <h3>Particuliers</h3>
             <p>Faites vos achats en ligne. Envoyez sans frais de l’argent en euros à vos proches en France.</p>
             <a class="contentLink"><strong>En savoir plus</strong></a>
@@ -135,7 +135,7 @@
 
       <!-- Paragraphe "Professionnels" -->
       <div class="col-lg-3">
-        <div id="font">
+        <div class="partie2_paragraph_text">
           <h3>Professionnels</h3>
           <p>Acceptez tous types de paiements : par carte, compte bancaire ou solde PayPal.</p>
           <a class="contentLink"><strong>En savoir plus</strong></a>
@@ -144,7 +144,7 @@
 
       <!-- Paragraphe "Associations" -->
       <div class= "col-lg-3">
-        <div id="font">
+        <div class="partie2_paragraph_text">
           <h3>Associations</h3>
           <p>Votre cause est la nôtre. Avec PayPal, vous pouvez bénéficier de tarifs spécifiques.</p>
           <a class="contentLink"><strong>En savoir plus</strong></a>
@@ -153,7 +153,7 @@
 
       <!-- Paragraphe "Partenaires et développeurs" -->
       <div class="col-lg-3">
-        <div id="font">
+        <div class="partie2_paragraph_text">
           <h3>Partenaires et développeurs</h3>
           <p>Proposez à vos clients des solutions plus innovantes avec PayPal. Nous vous y aidons.</p>
           <a class="contentLink"><strong>En savoir plus</strong></a>
@@ -163,53 +163,55 @@
     </div>
   </div>
 
+
 <!-- Marge pour les parties 3 et 4 et le footer -->
-  <div id="partie3_marge" class="container-fluid">
+  <div id="div_margin" class="container-fluid">
+
 <!-- Partie 3 -->
-    <!-- Image des appareils -->
+    <!-- Photo des appareils -->
     <div class="row text-center">
-      <img class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 image" src="images/fr-homepage-alldevices.png" alt="device">
+      <img id="partie3_picture" class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2" src="images/fr-homepage-alldevices.png" alt="device">
     </div>
 
     <span id="avantages"></span> <!-- Span avec l'ID "avantages" lié à l'ancre -->
     <!-- Div qui contient tout les avantages -->
-    <div class="row avantage">
+    <div id="partie3_content" class="row">
       <div class="row-fluid" >
 
         <!-- Partie "Raisons d'utiliser Paypal" -->
         <div class="row-fluid">
           <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center partie3_text">De bonnes raisons d'utiliser Paypal</h2>
         </div>
-        <div class="row-fluid text-center partie3_text" id="precond">
+        <div class="row-fluid text-center partie3_text" id="partie3_problem_sentence">
           <span >Nous sommes à vos côtés. Votre commande n’a pas été livrée, est abîmée ou doit être retournée au vendeur ? Pas de soucis, vous pouvez vous faire rembourser</span>
         </div>
-        <div class="row-fluid text-center partie3_text" id="condition">
+        <div class="row-fluid text-center partie3_text" id="partie3_condition">
           <a href="https://www.paypal.com/fr/webapps/mpp/buyer-protection">(des conditions s'appliquent)</a>
         </div>
 
         <!-- Div des 4 petits paragraphes -->
-        <div class="row-fluid detail">
+        <div id="partie3_paragraphs" class="row-fluid">
 
           <!-- Paragraphe "Simple et Pratique" -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element ">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 partie3_paragraphs_element ">
             <h4>Simple et Pratique</h4>
             <span class="text-left">Votre email et votre mot de passe suffisent pour payer. C'est tout simple.</span>
           </div>
 
           <!-- Paragraphe "Plus sécurisé" -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 partie3_paragraphs_element">
             <h4>Plus sécurisé</h4>
             <span>Nous ne partageons jamais vos données bancaires avec les vendeurs.</span>
           </div>
 
           <!-- Paragraphe "À vos côtés" -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 partie3_paragraphs_element">
             <h4>À vos côtés</h4>
             <span>Vous pouvez payer sur des millions de sites en ligne, partout dans le monde.</span>
           </div>
 
           <!-- Paragraphe "Envoyez de l'argent" -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 partie3_paragraphs_element">
             <h4>Envoyez de l'argent</h4>
             <span><a href="https://www.paypal.com/fr/webapps/mpp/send-money-online">Remboursez un proche </a> ou <a href="https://www.paypal.com/fr/webapps/mpp/requesting-payments">faites une demande</a> d'argent en quelques instants.</span>
           </div>
@@ -218,74 +220,72 @@
       </div>
     </div>
 
+
 <!-- Partie 4 -->
     <span id="espace_shopping"></span> <!-- Span avec l'ID "espace_shopping" lié à l'ancre -->
-    <!-- Titre et Sous-titre -->
-    <section class="shop-row-fluid row pullout center-text white p1" id="espaceShopping">
-      <div class="containerCentered container">
-        <div class="center-block shop8 col-sm-8">
-          <h2 class="pulloutHeadline ">Payez en ligne en un clin d'œil.</h2>
-          <p class="pulloutPara row">Payez dans des millions de boutiques en ligne, simplement avec votre adresse email et votre mot de passe.</p>
+    <!-- Titre et Sous-titre(paragraphe) -->
+    <section id="partie4_padding" class="row text-center">
+      <div class="container">
+        <div id="partie4_title_paragraph" class="col-sm-8">
+          <h2>Payez en ligne en un clin d'œil.</h2>
+          <p id="partie4_paragraph" class="row">Payez dans des millions de boutiques en ligne, simplement avec votre adresse email et votre mot de passe.</p>
         </div>
       </div>
     </section>
 
     <!-- Section des logos 1 -->
-    <section class="shop-row-fluid panel four-panel">
-      <div class="containerCentered container4d2p1m container">
-        <div class="shop3 col-sm-6 col-md-3">
-          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/bla-bla-car.jpg" alt="BlaBlaCar Logo" class="shop-panel-img"/>
+    <section id="partie4_section_logo">
+      <div class="container">
+        <div class="col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/bla-bla-car.jpg" alt="BlaBlaCar Logo" class="partie4_img"/>
         </div>
-        <div class="shop3 col-sm-6 col-md-3">
-          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/decathlon_image_new.jpg" alt="Decathlon Logo" class="shop-panel-img"/>
+        <div class="col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/decathlon_image_new.jpg" alt="Decathlon Logo" class="partie4_img"/>
         </div>
-        <div class="clearfix visible-sm ui-hidden-mobile ui-hidden-dedicated"></div>
-        <div class="shop3 col-sm-6 col-md-3">
-          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/deezer.jpg" alt="Deezer Logo" class="shop-panel-img"/>
+        <div class="col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/deezer.jpg" alt="Deezer Logo" class="partie4_img"/>
         </div>
-        <div class="shop3 col-sm-6 col-md-3">
-          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/La-Red.jpg" alt="La Reddoute Logo" class="shop-panel-img"/>
+        <div class="col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/La-Red.jpg" alt="La Reddoute Logo" class="partie4_img"/>
         </div>
       </div>
     </section>
 
     <!-- Section des logos 2 -->
-    <section class="shop-row-fluid panel four-panel">
-      <div class="containerCentered container4d2p1m container">
-        <div class="shop3 col-sm-6 col-md-3">
-          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/showroom.jpg" alt="Showroom Logo" class="shop-panel-img"/>
+    <section>
+      <div class="container">
+        <div class="col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/showroom.jpg" alt="Showroom Logo" class="partie4_img"/>
         </div>
-        <div class="shop3 col-sm-6 col-md-3">
-          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/pm.jpg" alt="Price Minister Logo" class="shop-panel-img"/>
+        <div class="col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/pm.jpg" alt="Price Minister Logo" class="partie4_img"/>
         </div>
-        <div class="clearfix visible-sm ui-hidden-mobile ui-hidden-dedicated"></div>
-        <div class="shop3 col-sm-6 col-md-3">
-          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/spartoo.jpg" alt="Spartoo Logo" class="shop-panel-img"/>
+        <div class="col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/spartoo.jpg" alt="Spartoo Logo" class="partie4_img"/>
         </div>
-        <div class="shop3 col-sm-6 col-md-3">
-          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/YVes.jpg" alt="Yves Rocher Logo" class="shop-panel-img"/>
+        <div class="col-sm-6 col-md-3">
+          <img src="https://www.paypalobjects.com/webstatic/fr_FR/mktg/wright/home/logos/YVes.jpg" alt="Yves Rocher Logo" class="partie4_img"/>
         </div>
       </div>
     </section>
 
     <!-- Partie "Pour les acheteurs et les vendeurs" -->
-    <section class="closing-section shop-row-fluid panel center-text light" id="closing-shop-section">
-      <div class="containerCentered">
-        <div class="shop12">
-          <p class="closingHeadline headline large">Pour les acheteurs et les vendeurs.</p>
-          <a data-pa-click="closing|Ouvrir un compte gratuitement" class="btn closing-cta center-block" href="https://www.paypal.com/fr/webapps/mpp/account-selection">Ouvrir un compte gratuitement</a>
+    <section id="partie4_section_paragraph_button" class="text-center">
+        <div id="partie4_paragraph_button">
+          <p id="partie4_paragraph2">Pour les acheteurs et les vendeurs.</p>
+          <a id="partie4_button" class="btn" href="https://www.paypal.com/fr/webapps/mpp/account-selection">Ouvrir un compte gratuitement</a>
         </div>
-      </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="row-fluid">
-      <!-- Ligne haute du footer -->
-      <div class="row top-footer">
+      <!-- Partie haute du footer -->
+      <div class="row">
 
         <div class="col-lg-6">
           <div class="col-lg-offset-0 col-lg-1 col-md-1 col-sm-1 col-xs-1">
-            <button class="btn" type="button" name="button"><span class="glyphicon glyphicon-search"></span></button>
+            <button class="btn" type="button" name="button_search"><span class="glyphicon glyphicon-search"></span></button>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
             <a href="https://www.paypal.com/fr/selfhelp/home">Aide et Contact</a>
@@ -299,13 +299,13 @@
         </div>
 
         <div class="col-lg-6">
-          <a href="https://www.paypal.com/fr/webapps/mpp/country-worldwide"><img id="flag_fr" src="images/fr.svg" alt="France"></a>
+          <a href="https://www.paypal.com/fr/webapps/mpp/country-worldwide"><img id="footer_flag_fr" src="images/fr.svg" alt="Drapeau France"></a>
         </div>
 
       </div>
 
-      <!-- Ligne basse du footer -->
-      <div class="row-fluid bottom-footer text-center">
+      <!-- Partie basse du footer -->
+      <div class="row-fluid footer_bottom text-center">
 
         <div class="col-lg-5">
           <div class="col-lg-2">
@@ -325,7 +325,7 @@
           </div>
         </div>
 
-        <div class=" col-lg-offset-2 col-lg-5  bottom-footer-right">
+        <div class="col-lg-offset-2 col-lg-5">
           <div >
             <span class="col-lg-2 col-lg-offset-0">1999-2017</span>
           </div>
