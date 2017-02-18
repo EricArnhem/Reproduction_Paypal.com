@@ -38,7 +38,6 @@
   margin-top: -90px;
   line-height: 50px;
   padding-top: 125px;
-  z-index: -1;
 }
 
 #background_image .btn{
@@ -54,6 +53,7 @@
   border-radius: 0;
   border-color: rgba(110, 110, 113, 0.5);
   height: 5px;
+  z-index: 1;
 }
 
 #list_nav_main{

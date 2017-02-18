@@ -14,39 +14,49 @@
 </head>
 <body data-spy="scroll" data-target=".navbar">
 
+<!-- Partie 1 -->
   <div class="container-fluid">
     <div class="row">
 
-      <nav id="nav_main" class="navbar navbar-default" role="navigation">
-        <div id="partie1_div_paypal" class="col-xs-2 col-sm-1 col-md-2 col-lg-2">
-          <a href="#" class="navbar-brand hidden-sm"><img id="partie1_paypal_logo" src="images/paypal_logo.png" alt="Paypal Logo"></a>
-          <a href="#" class="navbar-brand hidden-xs hidden-md hidden-lg"><img id="partie1_paypal_logo_small" src="images/paypal_logo_small.png" alt="Paypal Logo"></a>
-        </div>
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#list_header">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+      <!-- Header -->
+      <header>
+        <!-- Navbar du Header -->
+        <nav id="nav_main" class="navbar navbar-default" role="navigation">
+            <!-- Logos Paypal -->
+          <div id="partie1_div_paypal" class="col-xs-2 col-sm-1 col-md-2 col-lg-2">
+            <a href="#" class="navbar-brand hidden-sm"><img id="partie1_paypal_logo" src="images/paypal_logo.png" alt="Paypal Logo"></a>
+            <a href="#" class="navbar-brand hidden-xs hidden-md hidden-lg"><img id="partie1_paypal_logo_small" src="images/paypal_logo_small.png" alt="Paypal Logo"></a>
+          </div>
+            <!-- Menu Burger -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#list_header">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+            <!-- Liste de la Navbar -->
+          <div id="list_header" class="col-sm-3 col-md-5 col-lg-6 navbar-collapse collapse">
+            <ul id="list_nav_main" class="nav navbar-nav">
+              <li><a href="#">PARTICULIERS</a></li>
+              <li><a href="#">PROFESSIONNELS</a></li>
+              <li><a href="#">PARTENAIRES ET DÉVELOPPEURS</a></li>
+            </ul>
+          </div>
+            <!-- Boutons "Connexion" et "Ouvrir un compte" -->
+          <div id="header_buttons" class="col-lg-3 visible-lg">
+            <button id="button_connexion" type="button" name="connexion" class="btn"><a href="#">Connexion</a></button>
+            <button id="button_open_account" type="button" name="account" class="btn"><a href="#">Ouvrir un compte</a></button>
+          </div>
+        </nav>
+      </header>
 
-        <div id="list_header" class="col-sm-3 col-md-5 col-lg-6 navbar-collapse collapse">
-          <ul id="list_nav_main" class="nav navbar-nav">
-            <li><a href="#">PARTICULIERS</a></li>
-            <li><a href="#">PROFESSIONNELS</a></li>
-            <li><a href="#">PARTENAIRES ET DÉVELOPPEURS</a></li>
-          </ul>
-        </div>
-        <div id="header_buttons" class="col-lg-3 visible-lg">
-          <button id="button_connexion" type="button" name="connexion" class="btn"><a href="#">Connexion</a></button>
-          <button id="button_open_account" type="button" name="account" class="btn"><a href="#">Ouvrir un compte</a></button>
-        </div>
-      </nav>
-
+      <!-- Div avec la photo en background -->
       <div class="full container-fluid">
         <div class="row">
-          <div id="background_image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h1 id="paypal_description" class="text-center">Le paiement en ligne, simple et sécurisé.</h1>
+          <div id="background_image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 id="paypal_description" class="text-center">Le paiement en ligne, simple et sécurisé.</h1>
             <div id="blank"></div>
             <div><button id="button_open_free_account" type="button" name="open_account" class="btn btn-primary center-block"><a href="#">Ouvrir un compte gratuitement</a></button></div>
             <div id="blank"></div>
@@ -60,10 +70,11 @@
     </div>
   </div>
 
-
-  <!--navbar partie2-->
+<!-- Partie 2 -->
+  <!--Navbar Partie 2-->
   <div id="partie2_navbar" class="navbar navbar-default navbar-fixed" role="navigation">
     <div class="container">
+      <!-- Menu Burger -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#partie2_list">
           <span class="sr-only">Toggle Navigation</span>
@@ -72,6 +83,8 @@
           <span class="icon-bar"></span>
         </button>
       </div>
+
+      <!-- Liste de la Navbar avec les ancres -->
       <div id="partie2_list" class="navbar-collapse collapse">
         <div id="menu">
           <ul class="nav navbar-nav navbar">
@@ -81,19 +94,21 @@
           </ul>
         </div>
       </div>
+
     </div>
   </div>
-  <!--titre-->
 
+  <!-- Titre et Sous-titre-->
   <div class="container-fluid">
-    <span id="decouvrir"></span>
+    <span id="decouvrir"></span> <!-- Span avec l'ID "decouvrir" lié à l'ancre -->
+    <!-- Titre -->
     <div class="row" id="titre">
       <div class="col-lg-offset-3 col-lg-9">
         <h2>Des solutions pour chacun.</h2>
         <br>
       </div>
     </div>
-    <!--sous titre-->
+    <!-- Sous-titre-->
     <div class="row">
       <div class="home">
         <div class="col-lg-offset-3 col-lg-10">
@@ -102,10 +117,12 @@
       </div>
     </div>
   </div>
-  <!--Paragraphe-->
-  <
+
+  <!-- Paragraphes -->
   <div class="row" id="marge">
     <div  class="texte">
+
+      <!-- Paragraphe "Particuliers" -->
       <div class="col-lg-3">
         <div class="left">
           <div id="font">
@@ -115,6 +132,8 @@
           </div>
         </div>
       </div>
+
+      <!-- Paragraphe "Professionnels" -->
       <div class="col-lg-3">
         <div id="font">
           <h3>Professionnels</h3>
@@ -122,6 +141,8 @@
           <a class="contentLink"><strong>En savoir plus</strong></a>
         </div>
       </div>
+
+      <!-- Paragraphe "Associations" -->
       <div class= "col-lg-3">
         <div id="font">
           <h3>Associations</h3>
@@ -129,6 +150,8 @@
           <a class="contentLink"><strong>En savoir plus</strong></a>
         </div>
       </div>
+
+      <!-- Paragraphe "Partenaires et développeurs" -->
       <div class="col-lg-3">
         <div id="font">
           <h3>Partenaires et développeurs</h3>
@@ -136,16 +159,24 @@
           <a class="contentLink"><strong>En savoir plus</strong></a>
         </div>
       </div>
+
     </div>
   </div>
 
+<!-- Marge pour les parties 3 et 4 et le footer -->
   <div id="partie3_marge" class="container-fluid">
+<!-- Partie 3 -->
+    <!-- Image des appareils -->
     <div class="row text-center">
       <img class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 image" src="images/fr-homepage-alldevices.png" alt="device">
     </div>
-    <span id="avantages"></span>
+
+    <span id="avantages"></span> <!-- Span avec l'ID "avantages" lié à l'ancre -->
+    <!-- Div qui contient tout les avantages -->
     <div class="row avantage">
       <div class="row-fluid" >
+
+        <!-- Partie "Raisons d'utiliser Paypal" -->
         <div class="row-fluid">
           <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center partie3_text">De bonnes raisons d'utiliser Paypal</h2>
         </div>
@@ -155,31 +186,41 @@
         <div class="row-fluid text-center partie3_text" id="condition">
           <a href="https://www.paypal.com/fr/webapps/mpp/buyer-protection">(des conditions s'appliquent)</a>
         </div>
+
+        <!-- Div des 4 petits paragraphes -->
         <div class="row-fluid detail">
+
+          <!-- Paragraphe "Simple et Pratique" -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element ">
             <h4>Simple et Pratique</h4>
             <span class="text-left">Votre email et votre mot de passe suffisent pour payer. C'est tout simple.</span>
-
           </div>
+
+          <!-- Paragraphe "Plus sécurisé" -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
             <h4>Plus sécurisé</h4>
             <span>Nous ne partageons jamais vos données bancaires avec les vendeurs.</span>
-
           </div>
+
+          <!-- Paragraphe "À vos côtés" -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
             <h4>À vos côtés</h4>
             <span>Vous pouvez payer sur des millions de sites en ligne, partout dans le monde.</span>
-
           </div>
+
+          <!-- Paragraphe "Envoyez de l'argent" -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 element">
             <h4>Envoyez de l'argent</h4>
             <span><a href="https://www.paypal.com/fr/webapps/mpp/send-money-online">Remboursez un proche </a> ou <a href="https://www.paypal.com/fr/webapps/mpp/requesting-payments">faites une demande</a> d'argent en quelques instants.</span>
           </div>
+
         </div>
       </div>
     </div>
 
-    <span id="espace_shopping"></span>
+<!-- Partie 4 -->
+    <span id="espace_shopping"></span> <!-- Span avec l'ID "espace_shopping" lié à l'ancre -->
+    <!-- Titre et Sous-titre -->
     <section class="shop-row-fluid row pullout center-text white p1" id="espaceShopping">
       <div class="containerCentered container">
         <div class="center-block shop8 col-sm-8">
@@ -188,6 +229,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Section des logos 1 -->
     <section class="shop-row-fluid panel four-panel">
       <div class="containerCentered container4d2p1m container">
         <div class="shop3 col-sm-6 col-md-3">
@@ -205,6 +248,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Section des logos 2 -->
     <section class="shop-row-fluid panel four-panel">
       <div class="containerCentered container4d2p1m container">
         <div class="shop3 col-sm-6 col-md-3">
@@ -222,6 +267,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Partie "Pour les acheteurs et les vendeurs" -->
     <section class="closing-section shop-row-fluid panel center-text light" id="closing-shop-section">
       <div class="containerCentered">
         <div class="shop12">
@@ -231,8 +278,11 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="row-fluid">
+      <!-- Ligne haute du footer -->
       <div class="row top-footer">
+
         <div class="col-lg-6">
           <div class="col-lg-offset-0 col-lg-1 col-md-1 col-sm-1 col-xs-1">
             <button class="btn" type="button" name="button"><span class="glyphicon glyphicon-search"></span></button>
@@ -247,11 +297,16 @@
             <a href="https://www.paypal.com/fr/webapps/mpp/paypal-safety-and-security">Sécurité</a>
           </div>
         </div>
+
         <div class="col-lg-6">
           <a href="https://www.paypal.com/fr/webapps/mpp/country-worldwide"><img id="flag_fr" src="images/fr.svg" alt="France"></a>
         </div>
+
       </div>
+
+      <!-- Ligne basse du footer -->
       <div class="row-fluid bottom-footer text-center">
+
         <div class="col-lg-5">
           <div class="col-lg-2">
             <a href="https://www.paypal.com/fr/webapps/mpp/about">À propos</a>
@@ -269,6 +324,7 @@
             <a href="https://www.paypal.com/fr/webapps/mpp/jobs">Offres d'emploi</a>
           </div>
         </div>
+
         <div class=" col-lg-offset-2 col-lg-5  bottom-footer-right">
           <div >
             <span class="col-lg-2 col-lg-offset-0">1999-2017</span>
@@ -282,15 +338,14 @@
           <div class="col-lg-1">
             <a href="https://www.paypal.com/fr/home">Évaluation</a>
           </div>
-
         </div>
 
       </div>
     </footer>
 
-  </div>
+  </div> <!-- Fermeture de la div qui fait la marge -->
 
-
+<!-- Script qui permet l'animation de défilement de la page lorsque l'on clique sur les ancres -->
   <script>
   $(function () {
     $('li>a').on('click', function(e) {
@@ -305,10 +360,12 @@
   });
   </script>
 
+<!-- Script qui permet à la Navbar de la Partie 2 de rester fixe lors du défilement -->
   <script>
-    $(document).ready(function(){
-      $("#partie2_navbar").sticky({topSpacing:0, zIndex:999});
-    });
+  $(document).ready(function(){
+    $("#partie2_navbar").sticky({topSpacing:0, zIndex:999});
+  });
   </script>
+
 </body>
 </html>
