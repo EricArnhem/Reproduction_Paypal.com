@@ -62,7 +62,7 @@
   color: white;
 }
 
-@media(max-width: 768px){
+@media(max-width: 767px){
   #list_nav_main{
     background-color: rgb(110,115,134);
   }
@@ -79,10 +79,6 @@
 
 a{
   outline-style: none;
-}
-
-#partie1_paypal_logo{
-  margin-left: 35px;
 }
 
 /* Boutons */
